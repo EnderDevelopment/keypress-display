@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "keyboard-display",
+  "version": "${version}",
+  "name": "Keyboard Display",
+  "description": "Shows an on-screen keyboard and highlights the keys you press.",
+  "authors": [
+    "EnderDevelopment"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/keyboard-display/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.enderdevelopment.keyboarddisplay.KeyboardDisplayMod"
+    ],
+    "client": [
+      "com.enderdevelopment.keyboarddisplay.KeyboardDisplayClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
